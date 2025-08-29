@@ -1,0 +1,24 @@
+/* project spacing */
+
+:root{
+        /* 4 Pixels */
+    --spacing1:0.25rem;
+        /* 6 Pixels */
+    --spacing2:0.375em;
+        /* 8 Pixels */
+    --spacing3:0.5rem;
+        /* 12 Pixels */
+    --spacing4:0.75rem;
+        /* 16 Pixels */
+    --spacing5:1rem;
+        /* 24 Pixels */
+    --spacing6:1.5rem;
+        /* 39 Pixels */
+    --spacing7:2.438rem;
+        /* 44 Pixels */
+    --spacing8:2.75rem;
+        /* 48 Pixels */
+    --spacing9:3rem;
+        /* 45 Pixels */
+    --spacing10:3.375rem;
+}

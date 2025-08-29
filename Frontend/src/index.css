@@ -1,0 +1,8 @@
+/* Varibles  styles*/
+@import url("./CSS/Variables/Color/Color.css");
+@import url("./CSS/Variables/Font/Fonts.css");
+@import url("./CSS/Variables/Spacing/Spacing.css");
+/* Global styles*/
+@import url("./CSS/Global/Global.css");
+/* Global styles*/
+@import url("./CSS/Utils/Utils.css");

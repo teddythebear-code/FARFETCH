@@ -1,0 +1,33 @@
+/* Variables styles*/
+@import url("../Variables/Color/Color.css");
+@import url("../Variables/Font/Fonts.css");
+@import url("../Variables/Spacing/Spacing.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+img{
+    display: block;
+    width: 100%;
+}
+body{
+    background-color: var(--background-color1);
+    color: var(--text-color1);
+}
+h1{
+    font: var(--h1);
+}
+h2{
+    font: var(--h2);
+}
+p{
+    font: var(--p);
+}
+button{
+    border: none;
+}
