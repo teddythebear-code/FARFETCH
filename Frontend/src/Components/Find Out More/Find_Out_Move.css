@@ -6,3 +6,48 @@
 @import url("../../CSS/Variables/Color/Color.css");
 @import url("../../CSS/Variables/Font/Fonts.css");
 @import url("../../CSS/Variables/Spacing/Spacing.css");
+
+.Find_Out_Move{
+    background-color: var(--background-color1);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: var(--spacing48px);
+    gap: var(--spacing8px);
+}
+
+.Find_Out_Move_info{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h2{
+    font-size: var(--spacing39px);
+    cursor: pointer;
+}
+p{
+    margin-top: var(--spacing48px);
+    font-size: var(--spacing12px);
+    cursor: pointer;
+}
+.Find_Out_Move_but{
+    margin-top: var(--spacing48px);
+}
+button{
+    border-radius: var(--spacing8px);
+    padding: var(--spacing8px) var(--spacing12px);
+    border: black solid 1px;
+    background-color: var(--background-color1);
+    cursor: pointer;
+}
+
+.Find_Out_Move_image{
+    cursor: pointer;
+    max-width: 529px;
+    max-height: 929px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
