@@ -1,0 +1,62 @@
+/* Global styles */
+@import url("../../../CSS/Global/Global.css");
+/* Utils styles */
+@import url("../../../CSS/Utils/Utils.css");
+/* Variables styles */
+@import url("../../../CSS/Variables/Color/Color.css");
+@import url("../../../CSS/Variables/Font/Fonts.css");
+@import url("../../../CSS/Variables/Spacing/Spacing.css");
+
+.buttonNav{
+    padding:0 var(--spacing6px);
+    display: flex;
+    justify-content: space-between;
+}
+.RowName{
+    cursor: pointer;
+    padding: var(--spacing4px) 0 var(--spacing8px) 0;
+}
+.RowItem{
+    cursor: pointer;
+    padding: 0 0 var(--spacing8px) 0;
+    transition: 0.3s;
+}
+.RowItem:hover{
+    padding: 0 0 var(--spacing8px) 0;
+    text-decoration: underline;
+}
+.Brands{
+    columns: 5 var(--spacing15px);
+}
+.BrandsA{
+    cursor: pointer;
+    padding: var(--spacing8px);
+}
+.BrandsA:hover{
+    text-decoration: underline;
+}
+ul{
+    list-style: none;
+}
+
+.buttonNavRowImage{
+    display: flex;
+    flex-direction: column;
+}
+.RowImageName1{
+    color:var(--background-color2);
+    cursor: pointer;
+}
+.RowImageName2{
+    color:var(--text-color1);
+    cursor: pointer;
+}
+.RowImageShoe{
+    color:var(--text-color1);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.RowImage{
+    max-width: 250px;
+    max-height: 300px;
+}

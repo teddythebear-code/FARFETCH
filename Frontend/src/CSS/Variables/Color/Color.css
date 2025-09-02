@@ -6,11 +6,13 @@
     --text-color1: hsl(0, 0%, 0%) ;
     --text-color2: hsl(0, 0%, 13%);
     --text-color3: hsl(353, 81%, 51%);
-    --text-color3: hsl(0, 0%, 96%);
+    --text-color4: hsl(0, 0%, 96%);
 
     /* back ground color */
     --background-color1: hsl(0, 0%, 100%);
     --background-color2: hsl(0, 0%, 71%);
     --background-color3: hsla(0, 0%, 100%, 0);
-    
+
+    --box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
+
 }

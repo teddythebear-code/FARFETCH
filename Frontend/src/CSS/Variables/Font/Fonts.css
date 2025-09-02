@@ -5,8 +5,9 @@
 
     --H1: 48px var(--ff1);
     --H2: 27px var(--ff1);
-    --p: 15px var(--ff2);
-    --p2: 16px var(--ff2);
-    --p3: 13px var(--ff2);
+    --p: 13px var(--ff2);
+    --p2: 15px var(--ff2);
+    --p3: 16px var(--ff2);
+    --p4: 13px var(--ff2);
 
 }

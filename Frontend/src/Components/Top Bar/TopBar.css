@@ -1,0 +1,18 @@
+/* Global styles */
+@import url("../../CSS/Global/Global.css");
+/* Utils styles */
+@import url("../../CSS/Utils/Utils.css");
+/* Variables styles */
+@import url("../../CSS/Variables/Color/Color.css");
+@import url("../../CSS/Variables/Font/Fonts.css");
+@import url("../../CSS/Variables/Spacing/Spacing.css");
+
+.TopBar{
+    display: flex;
+    justify-content: center;
+    background-color: var(--text-color2);
+    padding: var(--spacing8px);
+}
+.LinkTopBar{
+    color: var(--text-color4);
+}

@@ -1,0 +1,97 @@
+/* Global styles */
+@import url("../../CSS/Global/Global.css");
+/* Utils styles */
+@import url("../../CSS/Utils/Utils.css");
+/* Variables styles */
+@import url("../../CSS/Variables/Color/Color.css");
+@import url("../../CSS/Variables/Font/Fonts.css");
+@import url("../../CSS/Variables/Spacing/Spacing.css");
+
+nav{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    column-gap: var(--spacing9px);
+    grid-template-rows: 1fr;
+    margin: var(--spacing12px) var(--spacing8px);
+    padding: 0 var(--spacing48px);
+    align-items: center;
+}
+.RightNav{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.RightNav li{
+   padding: var(--spacing12px) var(--spacing10px);
+   cursor: pointer;
+}
+.LogoNav{
+    text-align: center; 
+}
+.LogoNavname{
+    font-size: var(--spacing26px);
+    cursor: pointer;
+}
+.LeftNav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: var(--spacing8px);
+}
+svg{
+    fill: var(--text-color2);
+    font-size: var(--spacing42607px);
+    cursor: pointer;
+}
+
+.searchnav{
+
+display: flex;
+justify-content: space-between;
+}
+.searchnav ul{
+    display: flex;
+   
+}
+li{
+    padding: var(--spacing10px) var(--spacing10px);
+    font-size: var(--spacing10px);
+    cursor: pointer;
+}
+.Search{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.svginput{
+display: flex;
+}
+
+.nav2{
+    padding: 0 var(--spacing52px);
+    position: relative; 
+}
+.Searchbutton{
+    padding: var(--spacing10px) var(--spacing8px);
+    background-color: var(--background-color1);
+}
+
+input{
+    border: none;
+    outline: none;
+}
+
+.dropdownhidden{
+    display: none;
+}
+
+.dropdown{
+  display: block;
+  background: white;
+  min-width: 100%;
+  max-height: 20rem;
+  box-shadow:var(--box-shadow);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+}
