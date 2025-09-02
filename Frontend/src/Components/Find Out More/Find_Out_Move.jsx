@@ -1,18 +1,19 @@
 import './Find_Out_Move.css';
-import image from "../../Assets/Image/1a32a6bf83c17b862cbbfba9fd776f3c.jpg"
+import React, { Links } from 'react-router-dom'
+
 const Find_Out_Move = (props) => {
-  
+
   return (
     <div className='Find_Out_Move'>
       <div className='Find_Out_Move_info'>
-        <h2>The best of the new season</h2>
-        <p>Discover fall's key pieces from Prada, Miu Miu, Jil Sander and more</p>
+        <Links to={props.Find_Out_Move_link}> <h2>{props.h2.infor}</h2> </Links>
+       <Links to={props.Find_Out_Move_link}> <p>{props.p.infor}</p> </Links> 
         <div className='Find_Out_Move_but'>
-          <button>Find Out Move</button>
+         <Links to={props.Find_Out_Move_link}> <button>{props.button.infor}</button> </Links> 
         </div>
           </div>
       <div className='Find_Out_Move_image'>
-        <img src={image} alt="" />
+        <Links to={props.Find_Out_Move_link}> <img src={props.image} alt={props.imageName} /></Links>
       </div>
     </div>
   )
