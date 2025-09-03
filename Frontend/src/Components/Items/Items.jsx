@@ -1,7 +1,9 @@
 import './Items.css'
 
 import { Link } from 'react-router-dom'
+
 import CardItems from './CardItems/CardItems'
+import CardButton from "../Card button/CardButton"
 
 const Items = (props) => {
   return (
@@ -12,7 +14,7 @@ const Items = (props) => {
           <h2>{props.ItemsTopText}</h2>
         </div>
         <div ><Link to={props.ItemsTopText.Link} >
-        <button className='ItemsTopButton'>Shon Now</button>
+        <CardButton/>
         </Link>
         </div>
       </div>

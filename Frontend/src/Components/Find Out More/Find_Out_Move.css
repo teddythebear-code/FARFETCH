@@ -35,14 +35,6 @@ p{
 .Find_Out_Move_but{
     margin-top: var(--spacing48px);
 }
-button{
-    border-radius: var(--spacing8px);
-    padding: var(--spacing8px) var(--spacing12px);
-    border: black solid 1px;
-    background-color: var(--background-color1);
-    cursor: pointer;
-}
-
 .Find_Out_Move_image{
     cursor: pointer;
     max-width: 529px;
