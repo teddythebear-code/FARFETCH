@@ -1,11 +1,20 @@
 import "./ShowNow.css"
 import ShowNowCard from "./Show Now Card/ShowNowCard"
+import {Link} from "react-router-dom"
 
-const ShowNow = () => {
+
+const ShowNow = (props) => {
   return (
     <div className="ShowNow">
-<ShowNowCard/>
-<ShowNowCard/>
+
+        <Link to ={props.ShowNowLinkOne}>
+            <ShowNowCard/>
+        </Link>
+
+        <Link to ={props.ShowNowLinkTwo}>
+            <ShowNowCard/>
+        </Link>
+        
     </div>
   )
 }
