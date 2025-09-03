@@ -1,0 +1,100 @@
+/* Global styles */
+@import url("../../../CSS/Global/Global.css");
+/* Utils styles */
+@import url("../../../CSS/Utils/Utils.css");
+/* Variables styles */
+@import url("../../../CSS/Variables/Color/Color.css");
+@import url("../../../CSS/Variables/Font/Fonts.css");
+@import url("../../../CSS/Variables/Spacing/Spacing.css");
+
+/* * CardItems*/
+.CardItems{
+    max-width: 250px;
+    cursor: pointer;
+    margin: var(--spacing8px);
+}
+
+/* * CardItemsInfoName styles*/
+.CardItemsImage{
+    max-width: 250px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+}
+/* CardItemsInfoName image styles*/
+
+img{
+    grid-column: 1/8;
+    grid-row: 1/8;
+}
+/* CardItemsInfoName svg styles*/
+
+.svgIcon{
+    padding: var(--spacing8px) 0;
+    grid-column: 7 /8;
+    grid-row: 1;
+}
+
+.svgIcon1{
+    width: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.svgIcon2{
+      display: none;
+      width: 20px;
+      transition: 0.5s;
+}
+.onMouseLeavesvgIcon1{
+    display: none;
+      width: 20px;
+    transition: 0.5s;
+    
+}
+.onMouseLeavesvgIcon2{
+      width: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+/* CardItemsInfoName Extra styles*/
+.Extra{
+    padding: var(--spacing8px) 0;
+    grid-column: 1 /4;
+    grid-row: 1;
+    cursor: pointer;
+}
+.ExtraSpan{
+    font-size: var(--spacing10px);
+    padding: var(--spacing4px) var(--spacing8px);
+    background-color: var( --text-color4);
+    border-radius:0 var(--spacing4px) var(--spacing4px) 0;
+}
+
+/* * CardItemsInfo styles*/
+
+.CardItemsInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    gap: var(--spacing12px);
+    max-width: 250px;
+}
+/* CardItemsInfoName styles*/
+
+.CardItemsInfoName{
+    padding: var(--spacing12px) 0;
+}
+/* CardItemsInfoPrice styles*/
+
+.CardItemsInfoPrice{
+    display: flex;
+    gap: var(--spacing8px);
+}
+.CardItemsInfoPriceOldprice{
+    text-decoration: line-through;
+}
+.spanprice{
+    color: var(--text-color3);
+}

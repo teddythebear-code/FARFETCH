@@ -1,0 +1,40 @@
+/* Global styles */
+@import url("../../CSS/Global/Global.css");
+/* Utils styles */
+@import url("../../CSS/Utils/Utils.css");
+/* Variables styles */
+@import url("../../CSS/Variables/Color/Color.css");
+@import url("../../CSS/Variables/Font/Fonts.css");
+@import url("../../CSS/Variables/Spacing/Spacing.css");
+
+/* * Items */
+
+/* * ItemsTop */
+
+.ItemsTop{
+    display: flex; 
+    justify-content: space-between;
+    padding: var(--spacing8px) 0 ;
+}
+
+/* ItemsTopText */
+.ItemsTopText{
+    font-size: var(--spacing24px);
+}
+/* ItemsTopButton */
+
+.ItemsTopButton{
+    border-radius: var(--spacing8px);
+    padding: var(--spacing8px) var(--spacing12px);
+    border: var(--text-color1) solid 2px;
+    background-color: var(--background-color1);
+    cursor: pointer;
+}
+
+/* * ItemsCard */
+
+.ItemsCard{
+    display: flex;
+}
+
+
