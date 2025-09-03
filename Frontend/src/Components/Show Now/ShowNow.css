@@ -1,0 +1,16 @@
+/* Global styles */
+@import url("../../CSS/Global/Global.css");
+/* Utils styles */
+@import url("../../CSS/Utils/Utils.css");
+/* Variables styles */
+@import url("../../CSS/Variables/Color/Color.css");
+@import url("../../CSS/Variables/Font/Fonts.css");
+@import url("../../CSS/Variables/Spacing/Spacing.css");
+
+ /* * ShowNow */
+
+ .ShowNow{
+    padding: var(--spacing10px);
+    display: flex;
+    justify-content: space-between;
+ }

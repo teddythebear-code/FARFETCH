@@ -1,0 +1,43 @@
+/* Global styles */
+@import url("../../../CSS/Global/Global.css");
+/* Utils styles */
+@import url("../../../CSS/Utils/Utils.css");
+/* Variables styles */
+@import url("../../../CSS/Variables/Color/Color.css");
+@import url("../../../CSS/Variables/Font/Fonts.css");
+@import url("../../../CSS/Variables/Spacing/Spacing.css");
+
+/* * ShowNowCard */
+
+.ShowNowCard{
+    max-width: 49%;
+    max-height: 650px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
+}
+
+/* ShowNowCardImage */
+
+.ShowNowCardImage{
+    grid-column: 1/7;
+    grid-row: 1/7;
+}
+/* ShowNowCardText */
+.ShowNowCardText{
+    z-index: 100;
+   grid-column: 3/5;
+    grid-row: 3/4;
+}
+.ShowNowCardTextOne{
+    text-align: center;
+    color: azure;
+    font-size: var(--spacing52px);
+}
+.ShowNowCardTextTwo{
+    text-align: center;
+    color: azure;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: var(--spacing15px);
+}
